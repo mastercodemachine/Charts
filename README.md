@@ -1,4 +1,4 @@
-# Charts(underline)
+# Charts
 
 ## Visualizacion de gráficos
 
