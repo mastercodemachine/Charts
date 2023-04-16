@@ -1,7 +1,5 @@
 '''
-hola
-Aca puse una I en vez de L JEJE Ios
-graficos orientados a objetos son un poco mas complejos de escribir pero permiten mucha personalizacion a diferencia de pyplot
+Los graficos orientados a objetos son un poco mas complejos de escribir pero permiten mucha personalizacion a diferencia de pyplot
 '''
 
 import math
