@@ -1,5 +1,7 @@
 '''
-Los graficos orientados a objetos son un poco mas complejos de escribir pero permiten mucha personalizacion a diferencia de pyplot
+hola
+Aca puse una I en vez de L JEJE Ios
+graficos orientados a objetos son un poco mas complejos de escribir pero permiten mucha personalizacion a diferencia de pyplot
 '''
 
 import math
@@ -12,15 +14,18 @@ z = np.linspace(0,10,10)
 
 print(plt.style.available) # Muestra los colores de fondo disponibles
 
-
 fig = plt.figure()
 plt.style.use('dark_background') # elige el estilo de fondo de toda la figura, ademas del color
+# hay distintos estilos con separacion por grillas, etc
+
 axes_1 = fig.add_axes([0.1,0.1,0.8,0.9]) # Los primeros dos argumentos manejan la posicion en el eje de la figura
 axes_2 = fig.add_axes([0.65,0.17,0.2,0.5]) # Los segundos dos argumentos manejan el tamaño en el eje de la figura
+
 # la siguiente manera es otra forma de especificar mas como quiero los estilos de las lineas
 axes_1.plot(x,y,color="red",marker="8",markerfacecolor="blue",markersize=15,linewidth=5,linestyle=":")
+
 axes_2.plot(x,z,"b")
-axes_2.set_facecolor("grey")
+axes_2.set_facecolor("grey") # Fondo del grafico en especifico
 
 # Aca abajo esta la manera de hacer varios graficos en una sola figura con subplots (notese la "s" al final de subplots)
 
