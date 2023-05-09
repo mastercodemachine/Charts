@@ -27,7 +27,7 @@ axes_2.set_facecolor("grey") # Fondo del grafico en especifico
 
 # Aca abajo esta la manera de hacer varios graficos en una sola figura con subplots (notese la "s" al final de subplots)
 
-fig_2, axes = plt.subplots(2,4) # 2 filas x 2 columnas}
+fig_2, axes = plt.subplots(2,4) # 2 filas x 4 columnas}
 axes[0,0].plot(x,y,"ro",label="y-x")
 axes[0,0].set_title("y en funcion de x")
 axes[0,0].set_xlabel("X")
